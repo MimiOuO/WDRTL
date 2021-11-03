@@ -1,0 +1,6 @@
+framework module WDRTL {
+  umbrella header "WDRTL-umbrella.h"
+
+  export *
+  module * { export * }
+}

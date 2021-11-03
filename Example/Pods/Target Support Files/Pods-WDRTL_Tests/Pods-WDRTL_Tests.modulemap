@@ -1,0 +1,6 @@
+framework module Pods_WDRTL_Tests {
+  umbrella header "Pods-WDRTL_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "WDRTL",
+  "version": "0.1.0",
+  "summary": "A short description of WDRTL.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xsz12213129@163.com/WDRTL",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xsz12213129@163.com": "xushizun01@wudi360.com"
+  },
+  "source": {
+    "git": "https://github.com/xsz12213129@163.com/WDRTL.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "WDRTL/Classes/**/*"
+}

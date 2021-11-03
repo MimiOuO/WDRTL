@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		325B30DB6DBCF932B57777754114EB5C /* WDRTL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCBC9F8FB3878FDC90B74F798FC15E0 /* WDRTL-dummy.m */; };
+		577A088E02D877D28A79BCDF46531DAD /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B18E49320D2A53E705B71C9577C9F8 /* ReplaceMe.m */; };
+		636DF5C03B334C09482F9D1F46156ADF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8CE8B87ADD45EE99F581EFC61B4BFF7C /* Pods-WDRTL_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAE125A38B83FA4CE7021E4B000237E /* Pods-WDRTL_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2FFA6B4219704F19ACC8CC967E42221 /* WDRTL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E40FA7E219C59FA97F5A1A01709413EC /* WDRTL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B612BB59C49C739D599DB3FA00AF0577 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C6762A6AEEEE167989D19F08B5F8EB0D /* Pods-WDRTL_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B08D64FAA54E3F224FCE8F2824F52A /* Pods-WDRTL_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		379226B43560F66326CE3B15D823BC91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96E1532921ACFA17583173B30FC48845;
+			remoteInfo = WDRTL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		320C326DE7D7AE429C4C0E5C2AB9117E /* WDRTL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WDRTL.release.xcconfig; sourceTree = "<group>"; };
+		3805E0166C8A3C31B4BCD9CF9833D7A5 /* Pods-WDRTL_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WDRTL_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		40A1EDCC870367364060D15DA9B4DA3F /* Pods_WDRTL_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WDRTL_Tests.framework; path = "Pods-WDRTL_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43BC4B50BFCC2863D5F994B76B156AA2 /* Pods-WDRTL_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WDRTL_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5041963C1F6616ED87B80D6D15E439B3 /* Pods-WDRTL_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WDRTL_Tests-Info.plist"; sourceTree = "<group>"; };
+		680E42E2C02D57A17C0F53145969F263 /* Pods-WDRTL_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WDRTL_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78B18E49320D2A53E705B71C9577C9F8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WDRTL/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		7AC64AFACAAA8BEFC18A51ACDD672DA8 /* Pods-WDRTL_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WDRTL_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B1DF00F94EBE6D0E361BBBB470036C7 /* WDRTL.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WDRTL.modulemap; sourceTree = "<group>"; };
+		8CAE125A38B83FA4CE7021E4B000237E /* Pods-WDRTL_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WDRTL_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8F92B99B3426ED89101E74C4944BA20D /* WDRTL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WDRTL.debug.xcconfig; sourceTree = "<group>"; };
+		91B69E7BDADBDBC85CCA43D12341ED72 /* WDRTL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WDRTL.framework; path = WDRTL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97C68E533F1A58D48B1D721DD64574A7 /* Pods-WDRTL_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WDRTL_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB403AD2F10500C4943A28A22209DD55 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B83F74E38C9B6F44A7AA4F4A4CF7986F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BCCBC9F8FB3878FDC90B74F798FC15E0 /* WDRTL-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WDRTL-dummy.m"; sourceTree = "<group>"; };
+		CDD2A5A067D95F05AE51E95ADBD29B9D /* WDRTL.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WDRTL.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D14F5ED65928D8318150BD77CF5AEA4F /* Pods-WDRTL_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WDRTL_Tests.modulemap"; sourceTree = "<group>"; };
+		D815E4486BC4275644F5637D40337D7A /* WDRTL-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WDRTL-prefix.pch"; sourceTree = "<group>"; };
+		E40FA7E219C59FA97F5A1A01709413EC /* WDRTL-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WDRTL-umbrella.h"; sourceTree = "<group>"; };
+		E4B08D64FAA54E3F224FCE8F2824F52A /* Pods-WDRTL_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WDRTL_Tests-dummy.m"; sourceTree = "<group>"; };
+		F2BF9949C50CC9F60A410987299717CE /* WDRTL-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WDRTL-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DC6882B04E50736F3DEF7FD58B51141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636DF5C03B334C09482F9D1F46156ADF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DEC73A5109DFCE9637860AF2396E758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B612BB59C49C739D599DB3FA00AF0577 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		099FB2CFD43C40578581CF944F2C8CC8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B419BD8A9FB6A502809EA5520E399078 /* WDRTL */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1460502F060F35F4A3A3D68DDEA06C9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40A1EDCC870367364060D15DA9B4DA3F /* Pods_WDRTL_Tests.framework */,
+				91B69E7BDADBDBC85CCA43D12341ED72 /* WDRTL.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BE99B0228C5245C41A0344EA6719998 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AB403AD2F10500C4943A28A22209DD55 /* LICENSE */,
+				B83F74E38C9B6F44A7AA4F4A4CF7986F /* README.md */,
+				CDD2A5A067D95F05AE51E95ADBD29B9D /* WDRTL.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		589BE92F6E37CFCE4AF95116DC10DE64 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAB3EA6DC50FEA8E3F1781494DEA2D27 /* Pods-WDRTL_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B419BD8A9FB6A502809EA5520E399078 /* WDRTL */ = {
+			isa = PBXGroup;
+			children = (
+				78B18E49320D2A53E705B71C9577C9F8 /* ReplaceMe.m */,
+				1BE99B0228C5245C41A0344EA6719998 /* Pod */,
+				DD9A472E4EA64EB8AF2A88F49261CE9F /* Support Files */,
+			);
+			name = WDRTL;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				099FB2CFD43C40578581CF944F2C8CC8 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1460502F060F35F4A3A3D68DDEA06C9D /* Products */,
+				589BE92F6E37CFCE4AF95116DC10DE64 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD9A472E4EA64EB8AF2A88F49261CE9F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B1DF00F94EBE6D0E361BBBB470036C7 /* WDRTL.modulemap */,
+				BCCBC9F8FB3878FDC90B74F798FC15E0 /* WDRTL-dummy.m */,
+				F2BF9949C50CC9F60A410987299717CE /* WDRTL-Info.plist */,
+				D815E4486BC4275644F5637D40337D7A /* WDRTL-prefix.pch */,
+				E40FA7E219C59FA97F5A1A01709413EC /* WDRTL-umbrella.h */,
+				8F92B99B3426ED89101E74C4944BA20D /* WDRTL.debug.xcconfig */,
+				320C326DE7D7AE429C4C0E5C2AB9117E /* WDRTL.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WDRTL";
+			sourceTree = "<group>";
+		};
+		EAB3EA6DC50FEA8E3F1781494DEA2D27 /* Pods-WDRTL_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D14F5ED65928D8318150BD77CF5AEA4F /* Pods-WDRTL_Tests.modulemap */,
+				97C68E533F1A58D48B1D721DD64574A7 /* Pods-WDRTL_Tests-acknowledgements.markdown */,
+				680E42E2C02D57A17C0F53145969F263 /* Pods-WDRTL_Tests-acknowledgements.plist */,
+				E4B08D64FAA54E3F224FCE8F2824F52A /* Pods-WDRTL_Tests-dummy.m */,
+				3805E0166C8A3C31B4BCD9CF9833D7A5 /* Pods-WDRTL_Tests-frameworks.sh */,
+				5041963C1F6616ED87B80D6D15E439B3 /* Pods-WDRTL_Tests-Info.plist */,
+				8CAE125A38B83FA4CE7021E4B000237E /* Pods-WDRTL_Tests-umbrella.h */,
+				7AC64AFACAAA8BEFC18A51ACDD672DA8 /* Pods-WDRTL_Tests.debug.xcconfig */,
+				43BC4B50BFCC2863D5F994B76B156AA2 /* Pods-WDRTL_Tests.release.xcconfig */,
+			);
+			name = "Pods-WDRTL_Tests";
+			path = "Target Support Files/Pods-WDRTL_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4E8AD2336933D7D449C2BEB5A4F22352 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FFA6B4219704F19ACC8CC967E42221 /* WDRTL-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCBBC4D5DCA37FA403D91511D664160 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE8B87ADD45EE99F581EFC61B4BFF7C /* Pods-WDRTL_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2EF53F20E95B63AC76FEA567A15A2255 /* Pods-WDRTL_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8CD494CAC477C854AC4F91A2C0C8B86 /* Build configuration list for PBXNativeTarget "Pods-WDRTL_Tests" */;
+			buildPhases = (
+				5CCBBC4D5DCA37FA403D91511D664160 /* Headers */,
+				087C029CC91226A7072CE1958EC73543 /* Sources */,
+				4DEC73A5109DFCE9637860AF2396E758 /* Frameworks */,
+				EF6468C5B0A0DB89F60F6FBBF7303A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5DC85CE752A38F4106B9E9EACE9FFE3 /* PBXTargetDependency */,
+			);
+			name = "Pods-WDRTL_Tests";
+			productName = "Pods-WDRTL_Tests";
+			productReference = 40A1EDCC870367364060D15DA9B4DA3F /* Pods_WDRTL_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		96E1532921ACFA17583173B30FC48845 /* WDRTL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1FF9C8838D3F8A83B1932CA695B10EC /* Build configuration list for PBXNativeTarget "WDRTL" */;
+			buildPhases = (
+				4E8AD2336933D7D449C2BEB5A4F22352 /* Headers */,
+				D13966CFCC9EA231CDB7B5A30A61C35F /* Sources */,
+				2DC6882B04E50736F3DEF7FD58B51141 /* Frameworks */,
+				7E54B73F12DA3C51FF587C30CE70748E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WDRTL;
+			productName = WDRTL;
+			productReference = 91B69E7BDADBDBC85CCA43D12341ED72 /* WDRTL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1460502F060F35F4A3A3D68DDEA06C9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EF53F20E95B63AC76FEA567A15A2255 /* Pods-WDRTL_Tests */,
+				96E1532921ACFA17583173B30FC48845 /* WDRTL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E54B73F12DA3C51FF587C30CE70748E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6468C5B0A0DB89F60F6FBBF7303A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		087C029CC91226A7072CE1958EC73543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6762A6AEEEE167989D19F08B5F8EB0D /* Pods-WDRTL_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13966CFCC9EA231CDB7B5A30A61C35F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577A088E02D877D28A79BCDF46531DAD /* ReplaceMe.m in Sources */,
+				325B30DB6DBCF932B57777754114EB5C /* WDRTL-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5DC85CE752A38F4106B9E9EACE9FFE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WDRTL;
+			target = 96E1532921ACFA17583173B30FC48845 /* WDRTL */;
+			targetProxy = 379226B43560F66326CE3B15D823BC91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		367254916FEC20A45386EE69B720138A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 320C326DE7D7AE429C4C0E5C2AB9117E /* WDRTL.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WDRTL/WDRTL-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WDRTL/WDRTL-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WDRTL/WDRTL.modulemap";
+				PRODUCT_MODULE_NAME = WDRTL;
+				PRODUCT_NAME = WDRTL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		45F3C7ABBE06E7B4A3FE9280F94961D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43BC4B50BFCC2863D5F994B76B156AA2 /* Pods-WDRTL_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WDRTL_Tests/Pods-WDRTL_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WDRTL_Tests/Pods-WDRTL_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		704802C401199E9209BB1CDEA471A8C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F92B99B3426ED89101E74C4944BA20D /* WDRTL.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WDRTL/WDRTL-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WDRTL/WDRTL-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WDRTL/WDRTL.modulemap";
+				PRODUCT_MODULE_NAME = WDRTL;
+				PRODUCT_NAME = WDRTL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		762D4C0C7E8F2E8E7310EEBBF9480B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AC64AFACAAA8BEFC18A51ACDD672DA8 /* Pods-WDRTL_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WDRTL_Tests/Pods-WDRTL_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WDRTL_Tests/Pods-WDRTL_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1FF9C8838D3F8A83B1932CA695B10EC /* Build configuration list for PBXNativeTarget "WDRTL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				704802C401199E9209BB1CDEA471A8C5 /* Debug */,
+				367254916FEC20A45386EE69B720138A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8CD494CAC477C854AC4F91A2C0C8B86 /* Build configuration list for PBXNativeTarget "Pods-WDRTL_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				762D4C0C7E8F2E8E7310EEBBF9480B72 /* Debug */,
+				45F3C7ABBE06E7B4A3FE9280F94961D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
