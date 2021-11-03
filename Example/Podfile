@@ -1,0 +1,6 @@
+use_frameworks!
+target 'WDRTL_Tests' do
+  pod 'WDRTL', :path => '../'
+  
+  
+end
