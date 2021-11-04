@@ -7,21 +7,23 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'WDRTL'
-  s.version          = '0.1.0'
-  s.summary          = 'WDRTL'
-  s.frameworks = 'UIKit
-  s.description  = "RTL of WDLive"
-  s.homepage     = "https://github.com/MimiOuO/WDRTL"
-  s.license      = "MIT"
-  s.author       = { "MimiOuO" => "xsz12213129@163.com }
+  s.name             = "WDRTL"
+  s.version          = "0.1.0"
+  s.summary          = "WD RTL"
+  s.frameworks       = "UIKit"
+  s.description      = "RTL of WDLive"
+  s.homepage         = "https://github.com/MimiOuO/WDRTL"
+  s.license          = { :type => "MIT", :file => "LICENSE" }
+  s.author           = { "MimiOuO" => "xsz12213129@163.com" }
   # source存放的地址是代码的真正地址
-  s.source       = { :git => "https://github.com/MimiOuO/WDRTL.git", :tag => "#{s.version}" }
+  s.source           = { :git => "https://github.com/MimiOuO/WDRTL.git", :tag => "#{s.version}" }
   # pod install时真正下载下来的文件路径，这里指定的是你仓库下的Classes目录中的所有.h和.m文件（填写的是相对地址）
   # ** 通配目录
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.ios.deployment_target = '9.0'
-  # s.library = "sqlite3" # 框架依赖系统的sqlite3
+  s.source_files     = "WDRTL/Classes/**/*.{h,m}"
+  s.requires_arc     = true
+  s.platform         = :ios, "9.0"
+  s.ios.deployment_target = "9.0"
+  # s.library        = "sqlite3" # 框架依赖系统的sqlite3
 
 
 # This description is used to generate tags and improve search results.

@@ -12,10 +12,10 @@
 
 + (CGRect)rtl_flipRect:(CGRect)targetRect bySuperRect:(CGRect)superRect
 {
-    if (isRTL()) {
+    if ([[NSLocale preferredLanguages].firstObject hasPrefix:@"ar"]) {
         CGRect rect = targetRect;
-        if (superRect.size.width == KSW) {
-            CGFloat x = KSW - rect.origin.x - rect.size.width;
+        if (superRect.size.width == [UIScreen mainScreen].bounds.size.width) {
+            CGFloat x = [UIScreen mainScreen].bounds.size.width - rect.origin.x - rect.size.width;
             CGFloat y = rect.origin.y;
             CGFloat width = rect.size.width;
             CGFloat height = rect.size.height;
@@ -34,7 +34,7 @@
 
 + (CGFloat)rtl_flipOriginX:(CGFloat)originX width:(CGFloat)width bySuperWidth:(CGFloat)superWidth
 {
-    if (isRTL()) {
+    if ([[NSLocale preferredLanguages].firstObject hasPrefix:@"ar"]) {
         return superWidth - originX - width;
     }
     return originX;

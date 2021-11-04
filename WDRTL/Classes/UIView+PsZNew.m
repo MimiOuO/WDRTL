@@ -29,13 +29,13 @@
 - (void)rtl_resetOriginX
 {
     UIView *superView = self.superview;
-    if (superView && isRTL()) {
+    if (superView && [[NSLocale preferredLanguages].firstObject hasPrefix:@"ar"]) {
         self.x = superView.width - self.x - self.width;
     }
 }
 
 - (void)rtl_resetChildView{
-    if ([self isKindOfClass:[UIView class]] && isRTL()) {
+    if ([self isKindOfClass:[UIView class]] && [[NSLocale preferredLanguages].firstObject hasPrefix:@"ar"]) {
         for (UIView *subView in self.subviews) {
             [subView rtl_resetOriginX];
          }
@@ -44,7 +44,7 @@
 
 
 //- (void)rtl_resetScrollChildView{
-//    if ([self isKindOfClass:[UIScrollView class]] && isRTL()) {
+//    if ([self isKindOfClass:[UIScrollView class]] && [[NSLocale preferredLanguages].firstObject hasPrefix:@"ar"]) {
 //        for (UIView *subView in self.subviews) {
 //            [subView rtl_resetOriginX];
 //         }
@@ -55,7 +55,7 @@
 /// scrollview针对RTL做翻转适配，在视图布局固定时使用
 - (void)rtl_flippedSubviewsInScrollView
 {
-    if ([self isKindOfClass:[UIScrollView class]] && isRTL()) {
+    if ([self isKindOfClass:[UIScrollView class]] && [[NSLocale preferredLanguages].firstObject hasPrefix:@"ar"]) {
         for (UIView *subView in self.subviews) {
             subView.transform = CGAffineTransformMakeRotation(M_PI);
         }

@@ -12,7 +12,7 @@
 
 - (UIImage *)rtl_imageFlippedForRightToLeft
 {
-    if (isRTL()) {
+    if ([[NSLocale preferredLanguages].firstObject hasPrefix:@"ar"]) {
         return [UIImage imageWithCGImage:self.CGImage
                                    scale:self.scale
                              orientation:UIImageOrientationUpMirrored];

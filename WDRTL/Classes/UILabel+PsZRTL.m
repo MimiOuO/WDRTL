@@ -37,7 +37,7 @@
 
 - (void)rtl_setTextAlignment:(NSTextAlignment)textAlignment
 {
-    if (isRTL()) {
+    if ([[NSLocale preferredLanguages].firstObject hasPrefix:@"ar"]) {
         if (textAlignment == NSTextAlignmentLeft) {
             textAlignment = NSTextAlignmentRight;
         }
@@ -67,7 +67,7 @@ NSString *RTLString(NSString *string) {
     if (string.length == 0 || isRTLString(string)) {
         return string;
     }
-    if (isRTL()) {
+    if ([[NSLocale preferredLanguages].firstObject hasPrefix:@"ar"]) {
         string = [@"\u202B" stringByAppendingString:string];
     } else {
         string = [@"\u202A" stringByAppendingString:string];
