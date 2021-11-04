@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "WDRTL"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "WD RTL"
   s.frameworks       = "UIKit"
   s.description      = "RTL of WDLive"
